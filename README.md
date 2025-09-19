@@ -1,1 +1,1 @@
-A very basic page just to hold my modded Minecraft info.
+Basic page just to hold my modded Minecraft info.
