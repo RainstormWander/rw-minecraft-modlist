@@ -1,3 +1,7 @@
+/* - - - Fonts - - - */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 /* - - - Universal Reset - - - */
 
 * {
@@ -5,3 +9,52 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* - - - Variables - - - */
+
+:root {
+
+    --body-background-color: #dff5ec;
+    --body-links-color: #283580;
+    --body-font-family: "Raleway", serif;
+    --body-font-size: 1.05rem;
+}
+
+/* - - - Header - - -  */
+
+/* - - - Body - - - */
+
+body {
+    background: var(--body-background-color);
+    font-size: var(--body-font-size);
+    font-family: var(--body-font-family);
+}
+
+body a {
+    color: var(--body-links-color);
+    text-decoration: none;
+}
+
+body p {
+    margin-bottom: .5rem;
+    letter-spacing: 0.5px;
+}
+
+.p-underline {
+    text-decoration: underline;
+}
+
+#container-modlist {
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+li {
+    margin: .5rem;
+}
+
+/* - Links - */
+
+
+
+/* - - - Footer - - - */
