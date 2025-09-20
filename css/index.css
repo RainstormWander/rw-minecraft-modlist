@@ -1,6 +1,6 @@
 /* - - - Fonts - - - */
 
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zalando+Sans+SemiExpanded:ital,wght@0,200..900;1,200..900&display=swap');
 
 /* - - - Universal Reset - - - */
 
@@ -16,7 +16,7 @@
 
     --body-background-color: #dff5ec;
     --body-links-color: #283580;
-    --body-font-family: "Raleway", serif;
+    --body-font-family: "Zalando Sans SemiExpanded", sans-serif;
     --body-font-size: 1.05rem;
 }
 
@@ -33,15 +33,20 @@ body {
 body a {
     color: var(--body-links-color);
     text-decoration: none;
+    margin: .1rem;
 }
 
 body p {
     margin-bottom: .5rem;
-    letter-spacing: 0.5px;
+    letter-spacing: .5px;
 }
 
 .p-underline {
     text-decoration: underline;
+}
+
+#p-modlist {
+    margin-bottom: .75rem;
 }
 
 #container-modlist {
